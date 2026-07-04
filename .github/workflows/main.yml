@@ -19,6 +19,7 @@ jobs:
           POSTGRES_USER: django_user
           POSTGRES_PASSWORD: password
           POSTGRES_DB: django_db
+          DB_HOST: localhost
         ports:
           - 5432:5432
         # Эта конструкция описывает проверку готовности сервиса postgres
